@@ -1,0 +1,48 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Sırlar: gerçek ortam değişkenleri asla repoya girmez ###
+.env
+.env.*
+!.env.example
+
+### Ön yüz (S0-1'de oluşturulacak frontend/ için) ###
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+### Loglar ve işletim sistemi artıkları ###
+*.log
+Thumbs.db
+.DS_Store
