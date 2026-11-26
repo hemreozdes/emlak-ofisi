@@ -1,2 +1,12 @@
-/mvnw text eol=lf
+# Varsayılan: Git metin dosyalarını kendisi tanır, repoda ve çalışma kopyasında LF kullanılır
+* text=auto eol=lf
+
+# Windows betikleri CRLF ister, yoksa cmd.exe bozuk çalışabilir (genel kuralı ezer çünkü daha sonra yazıldı)
 *.cmd text eol=crlf
+*.bat text eol=crlf
+
+# İkili dosyalar: satır sonu dönüşümü yapılmaz, diff gösterilmez
+*.png binary
+*.jpg binary
+*.ico binary
+*.jar binary
