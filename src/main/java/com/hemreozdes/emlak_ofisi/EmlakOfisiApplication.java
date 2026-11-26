@@ -10,6 +10,4 @@ public class EmlakOfisiApplication {
 		SpringApplication.run(EmlakOfisiApplication.class, args);
 	}
 
-
-
 }
